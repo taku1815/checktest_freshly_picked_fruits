@@ -1,0 +1,34 @@
+# Node modules
+/node_modules
+
+# Laravel public hot reload
+/public/hot
+
+# Laravel storage (symlink先は除外)
+public/storage
+/storage/*.key
+
+# Composer dependencies
+/vendor
+
+# Environment
+.env
+.env.backup
+.phpunit.result.cache
+
+# Docker
+docker-compose.override.yml
+docker/mysql/data/
+docker/mysql/data/**
+
+# Vagrant / Homestead
+Homestead.json
+Homestead.yaml
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# IDEs
+/.idea
+/.vscode
